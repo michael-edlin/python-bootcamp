@@ -5,11 +5,15 @@
 # declare your hunger levels with a string.
 
 
-hunger = 2
+hunger = 2  # This can be any type, e.g., int, float, etc.
 
-if hunger == "big":
-    print("Eat the pizza")
-elif hunger == "small":
-    print("Eat the apple")
+# Check if the type of hunger is not a string
+if not isinstance(hunger, str):
+    print("Please declare your hunger level with a string.")
 else:
-    print("Don't eat anything")
+    if hunger == "big":
+        print("Eat the pizza")
+    elif hunger == "small":
+        print("Eat the apple")
+    else:
+        print("Don't eat anything")

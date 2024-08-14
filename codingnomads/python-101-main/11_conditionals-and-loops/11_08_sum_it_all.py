@@ -6,3 +6,13 @@
 
 start = 1
 stop = 100
+
+# Initialize a variable to hold the sum
+total_sum = 0
+
+# Loop through the numbers from start to stop (inclusive)
+for number in range(start, stop + 1):
+    total_sum += number  # Add each number to the total_sum
+
+# Print the result
+print("The sum is:", total_sum)

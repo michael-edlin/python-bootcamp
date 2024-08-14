@@ -32,53 +32,43 @@
 
 flag = True
 
-if flag == True:
+if flag == True:  # Step 1
     print("left")
 
+flag = False      # Step 2
 if flag == False:
     print("straight ahead")
 
+flag = True       # Step 3
 if flag == True:
     print("left")
 
+flag = False      # Step 4
 if flag == False:
     print("straight ahead")
 
+flag = True       # Step 5
 if flag == True:
     print("straight ahead")
 
+flag = True       # Step 6
 if flag == True:
     print("straight ahead")
 
-if flag == True:
-    print("DEAD END")
-
-if flag == True:
-    print("left")
-
+flag = False      # Step 7
 if flag == False:
     print("right")
 
+flag = True       # Step 8
 if flag == True:
     print("straight ahead")
 
+flag = False      # Step 9
 if flag == False:
     print("straight ahead")
 
-if flag == False:
-    print("DEAD END")
+flag = False      # Step 10
 
-if flag == True:
-    print("right")
-
-if flag == True:
-    print("straight ahead")
-
-if flag == True:
-    print("left")
-
+flag = False      # Step 11
 if flag == False:
     print("EXIT!!")
-
-if flag == True:
-    print("DEAD END")

@@ -10,3 +10,9 @@
 
 wrong = False
 right = True
+
+# Combine the variables using logical operators
+do_two_wrongs_make_a_right = not wrong and wrong or right
+
+# Output the result
+print(do_two_wrongs_make_a_right)

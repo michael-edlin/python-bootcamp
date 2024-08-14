@@ -6,3 +6,8 @@ file_1 = "operators.pdf"
 file_2 = "snowfall.jpg"
 file_3 = "uncle-joes-wedding.doc"
 file_4 = "invitation.pdf"
+
+print(file_1.endswith(".pdf"))  # True
+print(file_2.endswith(".pdf"))  # False
+print(file_3.endswith(".pdf"))  # False
+print(file_4.endswith(".pdf"))  # True
