@@ -4,3 +4,8 @@
 # Do you notice any difference to iterating over the string?
 
 string = "codingnomads"
+tuple_of_characters = tuple(string)
+print(tuple_of_characters)
+
+for character in tuple_of_characters:
+    print(character)
